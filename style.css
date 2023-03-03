@@ -1,0 +1,32 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+.parallax-scroll {
+    position: absolute;
+    width: 100%;
+    height: 1100%;
+    background-image: url("images/bg.jpg");
+    background-repeat: no-repeat;
+}
+
+.normal-scroll {
+    position: relative;
+    top: 400%;
+    left: 50%;
+    width: 20%;
+    color: white;
+}
+
+.space {
+    width:100%;
+    height: 200%;
+}
+
+.scroll-down-icon {
+    position: absolute;
+    top:70%;
+    left:40%;
+}
